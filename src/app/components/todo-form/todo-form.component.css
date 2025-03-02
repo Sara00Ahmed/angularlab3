@@ -1,0 +1,36 @@
+.todo-card {
+    background: #f88fef;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background: white;
+    color: #ff00f2;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #f8f9fa;
+}

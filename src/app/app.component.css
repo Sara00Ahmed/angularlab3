@@ -1,0 +1,38 @@
+.todo-wrapper {
+  max-width: 500px;
+  margin: auto;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.border-red {
+  border: 3px solid red;
+}
+
+.border-yellow {
+  border: 2px solid yellow;
+}
+
+.todo-card {
+  background: #007bff;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.task-card {
+  background: #e9ecef;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.task-card.completed {
+  text-decoration: line-through;
+  background: #d1ecf1;
+}
+
+.btn {
+  margin-left: 5px;
+}
