@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import { TestBed } from '@angular/core/testing';
 // import { AppComponent } from './app.component';
 
@@ -27,3 +28,34 @@
 //     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ToDoApp');
 //   });
 // });
+=======
+import { TestBed } from '@angular/core/testing';
+import { AppComponent } from './app.component';
+
+describe('AppComponent', () => {
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      imports: [AppComponent],
+    }).compileComponents();
+  });
+
+  it('should create the app', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    expect(app).toBeTruthy();
+  });
+
+  it(`should have the 'ToDoApp' title`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    expect(app.title).toEqual('ToDoApp');
+  });
+
+  it('should render title', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement as HTMLElement;
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ToDoApp');
+  });
+});
+>>>>>>> a92036d (initial commit)

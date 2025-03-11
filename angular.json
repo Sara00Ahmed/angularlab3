@@ -26,11 +26,17 @@
                 "input": "public"
               }
             ],
+<<<<<<< HEAD
               "styles": [
                 "node_modules/bootstrap/dist/css/bootstrap.min.css",
                 "src/styles.css"
             ],
 
+=======
+            "styles": [
+              "src/styles.css"
+            ],
+>>>>>>> a92036d (initial commit)
             "scripts": []
           },
           "configurations": {

@@ -1,48 +1,12 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { TodoWrapperComponent } from './components/todo-wrapper/todo-wrapper.component';
+
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, TodoWrapperComponent],
+  imports: [RouterOutlet],
   templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
 })
-export class AppComponent {}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import { Component } from '@angular/core';
-// import { CommonModule } from '@angular/common';
-// import { TodoComponent } from './todo/todo.component';
-
-// @Component({
-//   selector: 'app-root',
-//   standalone: true,
-//   imports: [CommonModule, TodoComponent],
-//   template: `<app-todo></app-todo>`,
-// })
-// export class AppComponent {
-//   title = 'ToDoApp';
-// }
+export class AppComponent {
+  title = 'ToDoApp';
+}
